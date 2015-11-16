@@ -1,5 +1,5 @@
 
-ecm_mv n theta = n * theta / (n+1)
+ecm_mv n theta = 2 * theta^2 / ( (n+1) * (n+2) )
 ecm_m n theta = theta^2 / (3*n)
 
 thetas = [1,10,40]
